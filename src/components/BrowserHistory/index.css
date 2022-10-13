@@ -36,6 +36,7 @@ input {
   outline: none;
   border: none;
   font-family: 'Roboto';
+  color: #ffffff;
 }
 
 .list_container {
