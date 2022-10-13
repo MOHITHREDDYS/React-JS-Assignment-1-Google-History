@@ -1,0 +1,89 @@
+li {
+  font-family: 'Roboto';
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.time {
+  color: #475569;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.app_logo {
+  width: 25px;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.title {
+  color: #475569;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.url {
+  color: #64748b;
+  font-size: 15px;
+  margin-top: 0px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+.delete_icon {
+  width: 20px;
+}
+.app_delete_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_title_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title_url_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .time {
+    margin-bottom: 15px;
+    margin-right: 50px;
+    width: 100px;
+  }
+  .title_url_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 25px;
+  }
+  .title {
+    margin-bottom: 15px;
+  }
+  .url {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .app_delete_container {
+    width: 100%;
+  }
+}
